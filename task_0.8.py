@@ -11,5 +11,6 @@ def hours_and_minutes(num):
     result = f"{hours} {hours_string}, {minutes} {minutes_string}"
     return result
 
-print(hours_and_minutes(71))
-print(hours_and_minutes(133))
+if __name__ == '__main__':
+    print(hours_and_minutes(71))
+    print(hours_and_minutes(133))

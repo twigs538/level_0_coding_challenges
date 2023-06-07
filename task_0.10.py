@@ -10,6 +10,7 @@ def common_letters(string_1, string_2):
                 continue
             common_characters = common_characters + [letter]
     results = delimeter.join(common_characters)
-    return f"Common letter: {results}"
+    return f"Common letters: {results}"
 
-print(common_letters("house", "computers"))
+if __name__ == '__main__':
+    print(common_letters("house", "computers"))

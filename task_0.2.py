@@ -4,4 +4,5 @@ z = 1 + (1 * 2)
 a = 1 + 1 * 2 / 2
 b = (1 + 1 * 2) / 2
 
-print(f"x = {x}, y = {y}, z = {z}, a = {a}, b = {b}")
+if __name__ == '__main__':
+    print(f"x = {x}, y = {y}, z = {z}, a = {a}, b = {b}")

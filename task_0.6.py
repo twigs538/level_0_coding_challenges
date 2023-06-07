@@ -5,4 +5,5 @@ def maximum(*numbers):
             max_num = number
     return max_num
 
-print(maximum(-1, -22, -3, -2))
+if __name__ == '__main__':
+    print(maximum(-1, -22, -3, -2))

@@ -1,9 +1,9 @@
 def vowels(string):
     vowels_found = ""
     delimeter = ", "
-    lower_case = string.lower()
+    string_lower = string.lower()
 
-    for letter in lower_case:
+    for letter in string_lower:
         if letter in "aeiou":
             if letter in vowels_found:
                 continue
@@ -11,4 +11,5 @@ def vowels(string):
     result = delimeter.join(vowels_found)
     print(f"Vowels: {result}")
 
-vowels("Umuzi")
+if __name__ == '__main__':
+    vowels("Umuzi")
