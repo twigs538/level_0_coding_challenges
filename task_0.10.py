@@ -6,8 +6,6 @@ def common_letters(string_1, string_2):
 
     for letter in lower_case_string_2:
         if letter in lower_case_string_1:
-            if letter in common_characters:
-                continue
             common_characters = common_characters + [letter]
     results = delimeter.join(common_characters)
     return f"Common letters: {results}"
