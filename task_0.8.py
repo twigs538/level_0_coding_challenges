@@ -8,7 +8,7 @@ def hours_and_minutes(num):
         hours_string = "hours"
     if minutes != 1:
         minutes_string = "minutes"
-    result = f"{hours} {hours_string}, {minutes} {minutes_string}"
+    result = f"{hours} {hours_string}, {minutes} {minutes_string}" 
     return result
 
 if __name__ == '__main__':

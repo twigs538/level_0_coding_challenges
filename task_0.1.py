@@ -5,7 +5,7 @@ print(f"The value of x is {x}")
 print(f"The value of y is {y}")
 
 x = x + 3
-y = y + x
+y = y + x 
 
 if __name__ == '__main__':
     print(f"The value of x is {x}")
