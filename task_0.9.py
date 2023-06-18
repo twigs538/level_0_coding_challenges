@@ -1,11 +1,13 @@
 def vowels(string):
-    vowels_found = set()
+    vowels_found = ""
+    delimiter = ", "
+    string_lower = string.lower()
 
-    for letter in string.lower():
-        if letter in "aeiou":
-            vowels_found.add(letter)
+    for letter in string_lower:
+        if letter in "aeiou" and letter not in vowels_found:
+            vowels_found += letter
 
-    result = ", ".join(vowels_found)
+    result = delimiter.join(vowels_found)
     print(f"Vowels: {result}")
 
 if __name__ == '__main__':
